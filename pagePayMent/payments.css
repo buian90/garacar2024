@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
+
+input {
+  margin-top: 20px;
+  margin-top: 1%;
+  margin-left: 1%;
+  font-family: Montserrat, sans-serif !important;
+  padding: 0.5%;
+  border: 1px solid #cbcbcb !important    ;
+  /* border-radius: 7em; */
+  /* background-color: #ccd5fc; Green */
+
+  /* border: 0; */
+}
+.pay-form {
+  margin-top: 20px;
+}
+.form-btn-actions {
+  font-family: Montserrat, sans-serif;
+  transition-duration: 0.7s;
+  margin-top: 2%;
+  height: 3em;
+  width: 7em;
+  color: white;
+  background-color: #7589eb;
+  border-radius: 7em;
+  border: 0;
+}
+
+.form-btn-actions:hover {
+  background-color: #ccd5fc;
+  color: black;
+  border-radius: 7em;
+}
+.pay-count {
+  width: 100px;
+  display: flex;
+}
+.info-product {
+  display: flex;
+}
+
+.images-product img {
+  width: 100px;
+  height: auto;
+}
+.quantity-product {
+  width: 100px;
+}
+td,
+th {
+  text-align: center;
+  vertical-align: middle;
+}
+input#price-number-product {
+  text-align: center;
+  /* padding: 0 !important; */
+  padding-left: 10px;
+}
+.trash-cart button {
+  border: 0px;
+  background-color: #f2f2f2;
+}
+.bg-product tr td {
+  background-color: #f2f2f2;
+}
